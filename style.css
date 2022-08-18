@@ -28,9 +28,9 @@ label.logo {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 37px;
   text-align: center;
-  color: rgb(19, 54, 120);
+  color: rgb(4, 29, 74);
   float: inline-end;
   padding: 20px;
   margin: 1rem 0 3rem 0;
@@ -84,5 +84,5 @@ footer {
 }
 
 .social a:hover i {
-  color: brown;
+  color: rgb(170, 12, 91);
 }
