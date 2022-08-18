@@ -1,0 +1,88 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  border: 400px red;
+}
+
+label.logo {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#icon {
+  color: blue;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  transition: color 0.4s ease;
+}
+
+#icon:hover {
+  color: chartreuse;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(19, 54, 120);
+  float: inline-end;
+  padding: 20px;
+  margin: 1rem 0 3rem 0;
+}
+
+p {
+  color: rgb(23, 23, 79);
+  font-size: 25px;
+  text-align: center;
+  margin: 5% 0 3% 0;
+}
+
+footer {
+  color: darkcyan;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 0 3rem 0;
+}
+
+.fcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50%;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  gap: 20px;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.social a:hover i {
+  color: brown;
+}
